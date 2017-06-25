@@ -1,0 +1,34 @@
+Cenário de caso de uso:
+
+"O usuário entra no "mooves" para pesquisar locais e empreendimentos com acessibilidade, podendo escolher se quer realizar a busca pela barra de buscas, pesquisando pelo nome do empreendimento; se prefere utilizar o filtro, escolhendo entre as categorias disponíveis; ou se prefere localizar os locais no mapa por conta própria. O usuário pode se cadastrar no sistema. Depois de cadastrado ele tem a opção de deixar comentários e/ou qualificações nos locais e empreendimentos desejados. Empresas também podem se cadastrar afim de disponibilizarem seus endereços no mapa como um local com acessibilidade."
+
+atores:
+1) usuário
+
+2) empresa
+
+ações:
+1) usuário
+	pesquisar local
+	realizar cadastro
+	realizar login
+	deixar comentário
+	deixar qualificação
+	escolher local como favorito
+
+2) empresa
+	realizar cadastro
+	realizar login
+	cadastrar empresa no mapa
+
+
+
+Regras de Negócio:
+
+RN01 - O usuário só poderá deixar comentários e qualificações se possuir cadastro.
+
+RN02 - O usuário só poderá escolher seus lugares favoritos se possuir cadastro.
+
+RN03 - A empresa só pode cadastrar seu local no mapa se possuir cadastro.
+
+RN04 - A empresa não poderá qualificar a si própria.
